@@ -1,3 +1,7 @@
+html{
+    scroll-behaviour:smooth;
+}
+
 header {
     background: linear-gradient(90deg, #000000 0%, #F2295B08 100%), url("images/bg3.jpg");
     background-size: cover;
