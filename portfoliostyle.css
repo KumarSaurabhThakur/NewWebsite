@@ -49,6 +49,12 @@ body {
     color: white;
 }
 
+.nav2 a:hover {
+    color: yellow;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 .top{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -62,8 +68,8 @@ body {
     object-fit: cover;
     object-position: top left;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px gray;
-    border: 3px solid yellow;
+    box-shadow: 0px 0px 20px yellow;
+    border: 5px solid yellow;
 }
 
 .top .myimg {
