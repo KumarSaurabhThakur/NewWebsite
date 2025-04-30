@@ -16,7 +16,7 @@ body {
 }
 
 .navbar {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -216,9 +216,17 @@ body {
 
 .error {
     margin-left: 1050px;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
+.error .ab3 a{
+    text-decoration: none;
+    color: midnightblue;
+}
+
+.error .ab3 a:hover{
+    color: red;
+}
 
 .img img {
     width: 950px;
@@ -263,7 +271,7 @@ body {
 .ab2 {
     font-size: large;
     padding-bottom: 20px;
-    color: rgb(78, 78, 78);
+    color: rgb(27, 27, 27);
 }
 
 .ab4 {
@@ -274,7 +282,7 @@ body {
 
 .ab3 {
     font-size: larger;
-    color: rgb(78, 78, 78);
+    color: balck;
 }
 
 input {
@@ -370,7 +378,7 @@ input:hover {
 
 .small {
     font-size: large;
-    color: rgb(78, 78, 78);
+    color: rgb(24, 24, 24);
     padding: 10px 30px 10px 30px;
 }
 
@@ -397,14 +405,12 @@ input:hover {
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 10px;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 100px;
+    padding: 100px;
 }
 
 .logos img {
-    height: 200px;
-    width: 100%;
+    height: 80%;
+    width: 80%;
 }
 
 .last {
@@ -482,7 +488,7 @@ input:hover {
     width: 70%;
     padding: 20px 20px 20px 50px;
     border: 0.5px solid gray;
-    box-shadow: 0px 0px 10px gray;
+    box-shadow: 0px 0px 10px black;
     border-radius: 20px;
 }
 
