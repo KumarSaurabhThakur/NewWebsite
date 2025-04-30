@@ -31,6 +31,10 @@ body {
     padding: 5px 20px;
 }
 
+.nav2{
+    margin-top: -22px;
+}
+
 .nav2 ul {
     list-style: none;
     font-weight: 700;
